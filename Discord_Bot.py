@@ -105,7 +105,7 @@ def response(message) -> str:  # detecting the user messages and returning respo
 
 
 def run():
-    token = 'MTA1MjU3NzY4MDE5NDgwOTg3Nw.GZw8e5.CewQXqDrMmHuBp92jvfiT7M3dsG1sdgjcItgTs'  # the token of the bot used for loggin to servers/guilds/clients (not shown for privacy reasons)
+    token = '<TOKEN>'  # the token of the bot used for loggin to servers/guilds/clients (not shown for privacy reasons)
     bot = commands.Bot(command_prefix='!',
                        intents=discord.Intents.all())  # create a command bot with a prefix and the allowed intents/permissions of the bot to handle events and commands
     bot.remove_command('help')  # disables the default help command to add a personalised help command
@@ -1076,3 +1076,4 @@ def run():
 
 
 run()  # starts the main function
+
