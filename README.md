@@ -10,8 +10,6 @@ The developping stage took 6 months before implementation, followed by 10 months
 
 In this repository you can find the complete code and the text files the bot uses during execution. (*Notes*, *Warnings*, *Items*)
 
-The *Notes* and *Warnings* text files are empty as the bot will gradually write in them during execution.
-
 Additionally there are two PDF documents with a detailed overview of the Design and Development stages.
 
 ## 📝 Text Files
