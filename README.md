@@ -95,45 +95,33 @@ The included PDFs describe a detailed overview of the Design and Development sta
 ---
 
 ## Commands
-### 🎮 Open Commands:
+### 🎮 Open Commands
 
-**Members**.............Displays all the members of the server (!members)
+| Command | Description |
+|----------|----------|
+| `!members` | Displays all the members of the server. |
+| `!shop` | Displays the item shop. |
+| `!buy [item]` | Buys an item from the shop. |
+| `!gift [item] @user` | Buys an item for another member. |
+| `!coins` | Shows the number of coins a member has. |
+| `!warning @user` | Shows all warnings of a member. |
+| `!rank @user` | Shows the rank of a member. |
 
-**Shop**......................Displays the item shop (!shop)
+### 🛠️ Admin Commands
 
-**Buy**.........................Buy an item from the shop (!buy [item])
-
-**Gift**.........................Buy an item for another member (!gift [item] @x)
-
-**Coins**.....................Shows the number of coins a member has (!coins)
-
-**Warning**...............Shows the all warnings of one member (!warning @x)
-
-**Rank**......................Shows the rank of one member (!rank @x)
-
-### 🛠️ Admin commands:
-
-**Ban**.........................Bans a member (!ban @x)
-
-**Unban**...................Unbans a member (!unban x)
-
-**Kick**........................Kick a member from server (!kick @x)
-
-**valo**........................Sends a message with reactions to get roles (![game])
-
-**rl**..............................Sends a message with reactions to get roles (![game])
-
-**lol**............................Sends a message with reactions to get roles (![game])
-
-**games**...................Sends a message with reactions to get roles (![game])
-
-**Add**........................Write in the Warnings and Notes text file (!add [file_name] [message])
-
-**Warnings**.............Displays the number of warnings of every member (!warnings)
-
-**Ranks**....................Shows the ranks of every member (!ranks)
-
-**Notes**....................Displays all the notes in the file (!notes)
+| Command | Description |
+|----------|----------|
+| `!ban @user` | Bans a member. |
+| `!unban <user_id>` | Unbans a member. |
+| `!kick @user` | Kicks a member from the server. |
+| `!valo` | Sends a message with reactions to get Valorant roles. |
+| `!rl` | Sends a message with reactions to get Rocket League roles. |
+| `!lol` | Sends a message with reactions to get League of Legends roles. |
+| `!games` | Sends a message with reactions to get game-related roles. |
+| `!add [file_name] [message]` | Writes to the Warnings or Notes text files. |
+| `!warnings` | Displays the number of warnings for each member. |
+| `!ranks` | Shows the ranks of every member. |
+| `!notes` | Displays all the notes stored in the file. |
 
 ---
 
