@@ -49,47 +49,47 @@ The included PDFs describe a detailed overview of the Design and Development sta
 .
 ├── Design.pdf
 ├── Development.pdf
-├── Discord\_Bot.py
+├── Discord_Bot.py
 ├── Items.txt
 ├── Notes.txt
 ├── Warnings.txt
 ├── README.md
 └── Emojis/
     ├── Games/
-    │   ├── league\_of\_legends.png
+    │   ├── league_of_legends.png
     │   ├── minecraft.png
     │   ├── overwatch.png
-    │   ├── rocket\_league.png
+    │   ├── rocket_league.png
     │   └── valorant.png
     ├── LOL/
-    │   ├── lol\_bronze.png
-    │   ├── lol\_challenger.png
-    │   ├── lol\_diamond.png
-    │   ├── lol\_gold.png
-    │   ├── lol\_grand\_master.png
-    │   ├── lol\_iron.png
-    │   ├── lol\_master.png
-    │   ├── lol\_platinum.png
-    │   └── lol\_silver.png
+    │   ├── lol_bronze.png
+    │   ├── lol_challenger.png
+    │   ├── lol_diamond.png
+    │   ├── lol_gold.png
+    │   ├── lol_grand_master.png
+    │   ├── lol_iron.png
+    │   ├── lol_master.png
+    │   ├── lol_platinum.png
+    │   └── lol_silver.png
     ├── RL/
-    │   ├── rl\_bronze.png
-    │   ├── rl\_champion.png
-    │   ├── rl\_diamond.png
-    │   ├── rl\_gold.png
-    │   ├── rl\_grand\_champion.png
-    │   ├── rl\_platinum.png
-    │   ├── rl\_silver.png
-    │   └── rl\_super\_sonic\_legend.png
+    │   ├── rl_bronze.png
+    │   ├── rl_champion.png
+    │   ├── rl_diamond.png
+    │   ├── rl_gold.png
+    │   ├── rl_grand_champion.png
+    │   ├── rl_platinum.png
+    │   ├── rl_silver.png
+    │   └── rl_super_sonic_legend.png
     └── Valo/
-        ├── valo\_ascendant.png
-        ├── valo\_bronze.png
-        ├── valo\_diamond.png
-        ├── valo\_gold.png
-        ├── valo\_immortal.png
-        ├── valo\_iron.png
-        ├── valo\_platinum.png
-        ├── valo\_radiant.png
-        └── valo\_silver.png
+        ├── valo_ascendant.png
+        ├── valo_bronze.png
+        ├── valo_diamond.png
+        ├── valo_gold.png
+        ├── valo_immortal.png
+        ├── valo_iron.png
+        ├── valo_platinum.png
+        ├── valo_radiant.png
+        └── valo_silver.png
 ```
 
 ---
@@ -164,8 +164,8 @@ This shop can be viewed by using commands, where users can also buy and gift ite
 1. **Clone the repository**
 
 ```bash
-   git clone https://github.com/Rdrg-Blnc/Discord\_Bot.git
-   cd Discord\_Bot
+   git clone https://github.com/Rdrg-Blnc/Discord_Bot.git
+   cd Discord_Bot
    ```
 
 2. **Dependencies**
@@ -186,8 +186,8 @@ This shop can be viewed by using commands, where users can also buy and gift ite
    * ⚠️ **Important:** Emojis **must be added with the same names** as the image files **without `.png`**.  
      Example:
 
-     * File: `valo\_gold.png` → Emoji name: `valo\_gold`
-     * File: `league\_of\_legends.png` → Emoji name: `league\_of\_legends`
+     * File: `valo_gold.png` → Emoji name: `valo_gold`
+     * File: `league_of_legends.png` → Emoji name: `league_of_legends`
 
 3. **Create the necessary roles**
 
@@ -228,7 +228,7 @@ This shop can be viewed by using commands, where users can also buy and gift ite
 Example of where to update the IDs:
 
 ```python
-   valo\_id = \[
+   valo_id = [
             1100538732421058691,
             1100538730609127454,
             1100538722522497134,
@@ -240,7 +240,7 @@ Example of where to update the IDs:
             1100538721310359653
         ] # IDs of all valorant emojis
 
-   channel = bot.get\_channel(1069575862451720244)  # id of the wanted channel to output message (this is from in_member_join function)
+   channel = bot.get_channel(1069575862451720244)  # id of the wanted channel to output message (this is from in_member_join function)
    ```
 
 5. **24/7 Hosting (required)**
@@ -281,36 +281,38 @@ Global Elite
 
 ### 🎮 Emoji Roles
 
-league\_of\_legends  
+league_of_legends  
 minecraft  
 overwatch  
-rocket\_league  
+rocket_league  
 valorant  
-lol\_bronze  
-lol\_challenger  
-lol\_diamond  
-lol\_gold  
-lol\_grand\_master  
-lol\_iron  
-lol\_master  
-lol\_platinum  
-lol\_silver  
-rl\_bronze  
-rl\_champion  
-rl\_diamond  
-rl\_gold  
-rl\_grand\_champion  
-rl\_platinum  
-rl\_silver  
-rl\_super\_sonic\_legend  
-valo\_ascendant  
-valo\_bronze  
-valo\_diamond  
-valo\_gold  
-valo\_immortal  
-valo\_iron  
-valo\_platinum  
-valo\_radiant  
-valo\_silver
+lol_bronze  
+lol_challenger  
+lol_diamond  
+lol_gold  
+lol_grand_master  
+lol_iron  
+lol_master  
+lol_platinum  
+lol_silver  
+rl_bronze  
+rl_champion  
+rl_diamond  
+rl_gold  
+rl_grand_champion  
+rl_platinum  
+rl_silver  
+rl_super_sonic_legend  
+valo_ascendant  
+valo_bronze  
+valo_diamond  
+valo_gold  
+valo_immortal  
+valo_iron  
+valo_platinum  
+valo_radiant  
+valo_silver
 
 ---
+
+✨ *Thank you for checking out this project* ✨
